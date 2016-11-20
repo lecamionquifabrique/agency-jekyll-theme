@@ -175,8 +175,13 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+@font-face {
+    font-family: lcqf;
+    src: url(css/ufonts.com_gloucester-mt-extra-condensed.ttf);
+}
+
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: lcqf;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -269,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/fondBois.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -315,7 +320,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;

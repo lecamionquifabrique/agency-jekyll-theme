@@ -1,0 +1,17 @@
+.brand{
+    font-family: "Gloucester MT Extra Condensed", lcqf !important;
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.bordure{
+    background-image: url(/img/bordure.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 15px;
+}
+
+.camion_head{
+    height: 1em;
+    margin-bottom: 8px;
+}
