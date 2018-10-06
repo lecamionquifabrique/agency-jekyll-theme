@@ -46,3 +46,15 @@ iframe.maps {
         height: 400px;
     }
 }
+.slick-prev:before{
+    color: black;
+    display: none;
+}
+.slick-next:before{
+    color: black;
+    display: none;
+}
+
+.caroussel{
+    max-width: 700px;
+}
